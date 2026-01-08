@@ -27,6 +27,8 @@ jobs:
       - name: Build
         run: npm run build
 
+      # Note: This workflow uses actions/upload-pages-artifact (specialized for Pages)
+      # For general artifact handling, use actions/upload-artifact@v4 or later
       # Note: This workflow uses actions/upload-pages-artifact (specialized for GitHub Pages).
       # For general artifact uploads, use actions/upload-artifact@v4 or later to ensure
       # compatibility and unique artifact naming as required by v4.
